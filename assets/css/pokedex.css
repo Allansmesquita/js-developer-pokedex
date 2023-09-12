@@ -6,6 +6,12 @@
     list-style: none;
 }
 
+.pokemon:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 10px 5px rgba(160, 150, 150, 0.6);
+    filter:brightness(1.2)
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -84,6 +90,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor:pointer
 }
 
 .pokemon .number {
@@ -144,6 +151,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    
 }
 
 @media screen and (min-width: 380px) {
